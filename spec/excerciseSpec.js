@@ -5,8 +5,9 @@ var hungerGames;
 beforeEach(function () {
   library = Library();
   hungerGames = Book('Hunger Games', 'Suzanne Collins');
-
+  
   library.addBook(hungerGames);
+
 });
 
 // sets books back to 'checked in' after each spec
